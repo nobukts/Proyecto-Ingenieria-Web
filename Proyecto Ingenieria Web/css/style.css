@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 4000,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+nav {
+    background-color: rgb(32, 40, 112);
+    border: solid black;
+    border-width: 1px;
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul {
+    background-color: rgb(72, 62, 158);
+    border: solid rgb(15, 8, 75);
+    border-width: 2px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li{
+    padding: 8px 12px;
+}
+
+.nav-links a ul li {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.cuerpo {
+    padding: 2%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+}
+
+footer div {
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-content ul {
+    list-style: none;
+    line-height: 22px;
+}
+
+a span {
+    color: white;
+}
