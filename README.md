@@ -19,5 +19,5 @@
 7. **Ordenar por alguna característica**, permite ordenar el listado de lugares segun un criterio de forma ascendente o descendente.
 8. **Añadir lugar de olla común**, permite añadir información relevante acerca de una actividad de olla común para que se muestre en la página web.
 9. **Avisar de algun error con el lugar de olla común**, permite enviar un informativo para corregir algún detalle de una publicación de una olla común.
-10. **Zona de comentarios**, 
+10. **Zona de comentarios**, permite a los usuarios escribir comentariosa acerca de una publicacón de una olla común.
 11. **Contactar con los encargados de la olla común**, permite enviar un correo electrónico a los encargados de alguna olla común en el caso de que se requiera algun dato que no se encuentre en la página web.
