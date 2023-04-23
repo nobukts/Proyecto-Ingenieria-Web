@@ -7,18 +7,17 @@ body {
 
 #side_nav {
     background: black;
-    min-width: 250px;
     max-width: 250px;
+
+    li a {
+        color: white;
+    }
 }
 
 .content {
     min-height: 100vh;
     width: 100%;
     margin: 20px;
-}
-
-.sidebar li a {
-    color: white;
 }
 
 .card {
@@ -43,8 +42,27 @@ body {
     background-color: $secondary-color;
     border: solid black;
     color: white;
+
+    .informacion-carta {
+        text-align: left;
+    }
 }
 
 .boton-mapa {
     text-align: right;
+}
+
+.comentarios {
+    margin: 30px;
+    text-align: left !important;
+
+    textarea{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .barra-superior {
+        width: 480px;
+    }
 }

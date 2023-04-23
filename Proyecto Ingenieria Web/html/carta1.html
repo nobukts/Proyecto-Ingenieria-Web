@@ -27,7 +27,7 @@
                         <li>
                             <a class="nav-link" href="añadirOllaComun.html">Añadir Olla Común</a>
                         </li>
-                      </ul>
+                    </ul>
                     <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link" href="/Proyecto Ingenieria Web/html/inicioSesion.html">
@@ -44,8 +44,8 @@
             <div class="sidebar" id="side_nav">
                 <div class="header-box">
                     <h1 class="fs-4">
-                        <span class="bg-white text-dark rounded shadow px-2 me-2">CL</span>
-                        <span class="text-white">Olla común</span>
+                        <span class="bg-white text-dark rounded shadow px-2 me-2">OC</span>
+                        <span class="text-white">Filtros de busqueda</span>
                     </h1>
                 </div>
 
@@ -65,8 +65,8 @@
                         <img src="/Proyecto Ingenieria Web/Sources/Foto ejemplo.jpg" alt="">
                         </div>
                         <div class="col-md-6 carta">
-                            <ul>
                                 <h1>TITULO</h1>
+                            <ul class="informacion-carta">
                                 <li>Region</li>
                                 <li>Direccion</li>
                                 <li>Informacion</li>
@@ -79,16 +79,33 @@
                             <iframe class="w-100 px-5 py-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.4565688213297!2d-71.60802928488148!3d-33.044444780892036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e09fcb9a20ed%3A0x2fc6c888d7a2a712!2sPontificia%20Universidad%20Cat%C3%B3lica%20de%20Valpara%C3%ADso!5e0!3m2!1ses-419!2scl!4v1680265345525!5m2!1ses-419!2scl" height="580" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="col-md-4 carta">
-                            <ul>
-                                <li>
-                                    <h1>ZONA DE CONTACTO</h1>
-                                </li>
+                            <h1>ZONA DE CONTACTO</h1>
+                            <ul class="informacion-carta">
+                                <li>Numero de contacto</li>
+                                <li>Email de contacto</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="carta zona-comentario">
-                        <h1>zona de comentario</h1>
+                        <h1>Zona de comentario</h1>
+                        <form id="formCrearComentario" name="formCrearComentario" style="padding: 1%;">
+                            <div class="comentarios">
+                                <h3>Crear comentario:</h3>
+                                <textarea name="areaTexto" id="areaTexto" cols="30" rows="10"></textarea>
+                                
+                            </div>
+                            <input type="submit" value="Publicar comentario">
+                        </form>
+                        
+                    </div>
+
+                    <div class="carta">
+                        <h1>Comentarios</h1>
+                        <div class="mostrar-comentarios" style="text-align: left;">
+                            <h4>Anonymus: </h4>
+                            <p id="comentario-usuario">Comentario de ejemplo</p>
+                        </div>
                     </div>
                     
                 </div>
@@ -110,10 +127,17 @@
             </div>
         </footer>
 
+        <!---Jquery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/additional-methods.min.js"></script>
 
+        <!--Bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
-
+        
+        <script src="/Proyecto Ingenieria Web/js/comentarios.js"></script>
     </body>
 </html>

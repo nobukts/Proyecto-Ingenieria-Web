@@ -4,8 +4,10 @@ body {
 
 #side_nav {
   background: black;
-  min-width: 250px;
   max-width: 250px;
+}
+#side_nav li a {
+  color: white;
 }
 
 .content {
@@ -14,14 +16,9 @@ body {
   margin: 20px;
 }
 
-.sidebar li a {
-  color: white;
-}
-
 .card {
   margin: 20px;
 }
-
 .card img {
   height: 15rem;
 }
@@ -41,11 +38,24 @@ body {
   border: solid black;
   color: white;
 }
+.carta .informacion-carta {
+  text-align: left;
+}
 
 .boton-mapa {
   text-align: right;
 }
 
-.navbar-buscar {
-  background-color: #25395e !important;
+.comentarios {
+  margin: 30px;
+  text-align: left !important;
+}
+.comentarios textarea {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .barra-superior {
+    width: 480px;
+  }
 }/*# sourceMappingURL=style.css.map */
