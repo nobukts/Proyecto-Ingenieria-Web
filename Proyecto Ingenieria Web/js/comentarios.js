@@ -34,7 +34,7 @@ function crearComentario(){
     var etiquetaPadre = document.querySelector(".mostrar-comentarios")
     const usuario = document.createElement("h4")
 
-    usuario.appendChild(document.createTextNode("Anonymus:"));
+    usuario.appendChild(document.createTextNode("(Usuario):"));
     nuevoComentario.appendChild(texto);
     etiquetaPadre.append(usuario,nuevoComentario);
 }

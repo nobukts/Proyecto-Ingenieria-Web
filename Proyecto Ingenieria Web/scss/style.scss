@@ -46,6 +46,10 @@ body {
     .informacion-carta {
         text-align: left;
     }
+
+    .mostrar-comentarios{
+        padding: 2%;
+    }
 }
 
 .boton-mapa {
@@ -62,7 +66,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .barra-superior {
+    .barra-responsiva {
         width: 480px;
     }
 }
