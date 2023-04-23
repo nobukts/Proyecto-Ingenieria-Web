@@ -1,0 +1,27 @@
+.campo-form-olla{
+    list-style-type: none;
+    padding-top: 10px;
+    border: 4px solid   #03e9f4;
+}
+
+.caja{
+    padding-top: 10px;
+}
+
+.campo-form-olla li{
+    padding : 10px;
+}
+
+label.error{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+section{
+    background: #141e30;
+    color: #03e9f4;
+}

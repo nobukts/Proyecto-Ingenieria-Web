@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Añadir Olla Común | Olla Común</title>
+        <link rel="icon" href="/Proyecto Ingenieria Web/Sources/Logo página.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="/Proyecto Ingenieria Web/css/añadirOlla_styles.css">
+
+        <!--Bootstrap links-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+        <!--Jquery-validation-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js" crossorigin="anonymous"></script>
+    
+    </head>
+    <body>
+        <header>
+            <body class="d-flex flex-column min-vh-100">
+                <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="/Proyecto Ingenieria Web/index.html"><img src="/Proyecto Ingenieria Web/Sources/Logo página.png" width="90px" height="60px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      <li class="nav-item">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto w-100 mb-2 mb-lg-0">
+                        <li>
+                            <a class="nav-link" href="/Proyecto Ingenieria Web/html/buscador.html">Buscar lugares</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Añadir Olla Común</a>
+                        </li>
+                      </ul>
+                      <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                          <li class="nav-item">
+                              <a class="nav-link" href="/Proyecto Ingenieria Web/html/inicioSesion.html">
+                                <img src="/Proyecto Ingenieria Web/Sources/Logo Usuario.png" width="30px" height="30px">
+                                Inicio de sesión
+                              </a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </body>
+        </header>
+
+        <section>
+            <h1> Añadir Olla Común</h1>
+            <div class="container caja">
+                <form action="" id="form-olla-comun" name="form-olla-comun">
+                    <ul class="campo-form-olla">
+                        <li>
+                            <div class="row">
+                                <div class="col-md-6" style="text-align: right;">
+                                    <p>Indique nombre del evento</p>
+                                </div>
+                                <div class="col-md-6" style="text-align: left;">
+                                    <input type="text" name="nombreEvento" id="nombreEvento">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-md-6" style="text-align: right;">
+                                    <p>Elegir región</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select" id="region" style="width: fit-content;">
+                                        <option> Arica y Parinacota</option>
+                                        <option> Tarapacá</option>
+                                        <option>Antofagasta</option>
+                                        <option>Atacama</option>
+                                        <option>Coquimbo</option>
+                                        <option>Valparaíso</option>
+                                        <option>R. Metropolitana</option>
+                                        <option>O'Higgins</option>
+                                        <option>Maule</option>
+                                        <option>Ñuble</option>
+                                        <option>Los Ríos</option>
+                                        <option>Los Lagos</option>
+                                        <option>Aysén</option>
+                                        <option>Magallanes</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-md-6" style="text-align: right;">
+                                    <p>Ingrese la dirección </p>
+                                </div>
+                                <div class="col-md-6" style="text-align: left;">
+                                    <input type="text" name="nombreCalle" id="nombreCalle">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-md-6" style="text-align: right;">
+                                    <p>Indique la fecha</p>
+                                </div>
+                                <div class="col-md-6" style="text-align: left;">
+                                    <input type="date" name="fechaActividad" id="fechaActividad">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-md-6" style="text-align: right;">
+                                    <p>Indique descripción</p>
+                                </div>
+                                <div class="col-md-6" style="text-align: left;">
+                                    <textarea name="descripcionEvento" rows="7" cols="24"></textarea>
+                                </div>
+                            </div>
+                        </li>
+                        <li>        
+                            <div class="row">
+                                <div class="col-md-6" style="text-align: right;">
+                                    <p>Agregar foto (opcional)</p>
+                                </div>
+                                <div class="col-md-6" style="text-align: left;">
+                                    <input type="file" name="fotoEvento" id="fotoEvento">
+                                </div>
+                            </div>
+                        </li>
+                        <li style="text-align: center;">
+                            <input type="submit" value="Registrar olla común">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+
+        <footer class="mt-auto flex-shrink-0 py-4 bg-dark text-white-50">
+            <div class="container text-center">
+              <small>Copyright &copy; Bryan López - Jefté Ponce - José Osega</small>
+            </div>
+        </footer>
+
+        <script src="/Proyecto Ingenieria Web/js/ollaComunValidator.js" async defer></script>
+    </body>
+</html>
