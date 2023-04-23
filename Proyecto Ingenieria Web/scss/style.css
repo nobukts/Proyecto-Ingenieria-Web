@@ -1,0 +1,51 @@
+body {
+  background: #141e30 !important;
+}
+
+#side_nav {
+  background: black;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.content {
+  min-height: 100vh;
+  width: 100%;
+  margin: 20px;
+}
+
+.sidebar li a {
+  color: white;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card img {
+  height: 15rem;
+}
+
+.zona-cartas {
+  margin: 15px;
+  display: flex;
+}
+
+.row {
+  margin: 2%;
+}
+
+.carta {
+  margin: 2%;
+  background-color: #25395e;
+  border: solid black;
+  color: white;
+}
+
+.boton-mapa {
+  text-align: right;
+}
+
+.navbar-buscar {
+  background-color: #25395e !important;
+}/*# sourceMappingURL=style.css.map */
