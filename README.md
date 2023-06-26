@@ -16,8 +16,7 @@
 4. **Buscar lugares de ollas comunes a través de lista**, como indica su nombre, permite buscar los lugares donde se realizaran las ollas comunes en un formato de lista.
 5. **Buscar lugares de ollas**, comunes a través de mapa, permite mostrar en un mapa los lugares donde se realizaran ollas comunes, permitiendo realizar una búsqueda más visual.
 6. **Filtrar por alguna característica**, permite filtrar el listado de lugares que se tenga almacenado, para facilitar la búsqueda en criterios más especificos.
-7. **Ordenar por alguna característica**, permite ordenar el listado de lugares segun un criterio de forma ascendente o descendente.
-8. **Añadir lugar de olla común**, permite añadir información relevante acerca de una actividad de olla común para que se muestre en la página web.
-9. **Avisar de algun error con el lugar de olla común**, permite enviar un informativo para corregir algún detalle de una publicación de una olla común.
-10. **Zona de comentarios**, permite a los usuarios escribir comentarios acerca de una publicacón de una olla común.
-11. **Contactar con los encargados de la olla común**, permite enviar un correo electrónico a los encargados de alguna olla común en el caso de que se requiera algun dato que no se encuentre en la página web.
+7. **Añadir lugar de olla común**, permite añadir información relevante acerca de una actividad de olla común para que se muestre en la página web.
+10. **Avisar de algun error con el lugar de olla común**, permite enviar un informativo para corregir algún detalle de una publicación de una olla común.
+11. **Zona de comentarios**, permite a los usuarios escribir comentarios acerca de una publicacón de una olla común.
+12. **Contactar con los encargados de la olla común**, permite enviar un correo electrónico a los encargados de alguna olla común en el caso de que se requiera algun dato que no se encuentre en la página web.
